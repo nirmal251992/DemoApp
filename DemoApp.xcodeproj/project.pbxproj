@@ -16,6 +16,7 @@
 		585E897321B58C1A009B48D0 /* DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585E897221B58C19009B48D0 /* DemoAppTests.swift */; };
 		585E897E21B58C1A009B48D0 /* DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585E897D21B58C1A009B48D0 /* DemoAppUITests.swift */; };
 		5898349621B59F9300254F3A /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898349521B59F9300254F3A /* NewViewController.swift */; };
+		5898349821B5A0B200254F3A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898349721B5A0B200254F3A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		585E897D21B58C1A009B48D0 /* DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppUITests.swift; sourceTree = "<group>"; };
 		585E897F21B58C1A009B48D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5898349521B59F9300254F3A /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		5898349721B5A0B200254F3A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				585E896921B58C19009B48D0 /* Info.plist */,
 				585E896121B58C16009B48D0 /* DemoApp.xcdatamodeld */,
 				5898349521B59F9300254F3A /* NewViewController.swift */,
+				5898349721B5A0B200254F3A /* SecondViewController.swift */,
 			);
 			path = DemoApp;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				585E895D21B58C16009B48D0 /* ViewController.swift in Sources */,
 				585E896321B58C16009B48D0 /* DemoApp.xcdatamodeld in Sources */,
 				585E895B21B58C16009B48D0 /* AppDelegate.swift in Sources */,
+				5898349821B5A0B200254F3A /* SecondViewController.swift in Sources */,
 				5898349621B59F9300254F3A /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

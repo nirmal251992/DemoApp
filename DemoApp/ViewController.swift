@@ -30,6 +30,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return cell
     }
     
-
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
 }
 
