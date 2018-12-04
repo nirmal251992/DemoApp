@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class ViewController: UIViewController {
    
 
     override func viewDidLoad() {
@@ -21,17 +21,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell  = UITableViewCell()
-        return cell
-    }
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
+   
 }
 
